@@ -21,7 +21,7 @@ function AgregarTexto() {
 
   function LLamarPuerta() {
     // Crear un nuevo elemento de audio
-    let timbre = new Audio('C:/Users/tomi_/OneDrive/Escritorio/Cosas Anterior PC/Universidad/TODOLIST/Timbre de aeropuerto - Sonido  Sound.mp3');
+    let timbre = new Audio('./Timbre de aeropuerto - Sonido  Sound.mp3');
     
     // Reproducir el sonido del timbre
     timbre.play();
